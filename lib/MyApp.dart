@@ -1,4 +1,5 @@
 import 'package:budget/screens/ScreenOne.dart';
+import 'package:budget/screens/ScreenTwo.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
          MaterialApp(
            title: 'Budget Tracker',
            home: Scaffold(
-            body: ScreenOne(),
+            body: ScreenTwo(),
 
            ),
          )
