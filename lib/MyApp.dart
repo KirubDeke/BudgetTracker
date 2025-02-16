@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
          MaterialApp(
            title: 'Budget Tracker',
            home: Scaffold(
-            body: ScreenTwo(),
+            body: ScreenOne(),
 
            ),
          )

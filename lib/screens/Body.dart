@@ -39,58 +39,104 @@ class Body extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 30,),
+            SizedBox(height: 5,),
             Image.asset('assets/Images/homeImg.png'),
-            SizedBox(height: 30,),
+            SizedBox(height: 3,),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Expanded(
                   child: ElevatedButton.icon(
                     onPressed: () {},
-                    icon: Icon(Icons.add),
-                    label: Text('Add Expense'),
+                    label: Text('Expense'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppTheme.primaryColor,
+                      foregroundColor: AppTheme.tertiaryColor,
+                      fixedSize: Size(30, 65),
+                       shape: RoundedRectangleBorder(
+                       borderRadius: BorderRadius.circular(10), 
+                      ),
+                    ),
                   ),
                 ),
+                SizedBox(width: 7,),
                 Expanded(
                   child: ElevatedButton.icon(
                     onPressed: () {},
-                    label: Text('Add Income'),
-                    icon: Icon(Icons.subscript_sharp),
+                    label: Text('Income'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppTheme.primaryColor,
+                      foregroundColor: AppTheme.tertiaryColor,
+                      fixedSize: Size(30, 65),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      )
+                    ),
                   ),
                 ),
+                SizedBox(width: 7,),
                 Expanded(
                   child: ElevatedButton.icon(
                     onPressed: () {},
-                    label: Text('View Transaction'),
-                    icon: Icon(Icons.view_agenda),
+                    label: Text('Transaction'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppTheme.primaryColor,
+                      foregroundColor: AppTheme.tertiaryColor,
+                      fixedSize: Size(30, 65),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10)
+                      )
+                    ),
                   ),
                 ),
               ],
             ),
-            SizedBox(height: 30,),
+            SizedBox(height: 25,),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Expanded(
                   child: ElevatedButton.icon(
                     onPressed: () {},
-                    icon: Icon(Icons.add),
-                    label: Text('Budget Overview'),
+                    label: Text('Overview'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppTheme.primaryColor,
+                      foregroundColor: AppTheme.tertiaryColor,
+                      fixedSize: Size(30, 65),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      )
+                    ),
                   ),
                 ),
+                SizedBox(width: 7,),
                 Expanded(
                   child: ElevatedButton.icon(
                     onPressed: () {},
-                    label: Text('Saving goals'),
-                    icon: Icon(Icons.subscript_sharp),
+                    label: Text('Goals'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppTheme.primaryColor,
+                      foregroundColor: AppTheme.tertiaryColor,
+                      fixedSize: Size(30, 65),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      )
+                    ),
                   ),
                 ),
+                SizedBox(width: 7,),
                 Expanded(
                   child: ElevatedButton.icon(
                     onPressed: () {},
                     label: Text('Help'),
-                    icon: Icon(Icons.view_agenda),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppTheme.primaryColor,
+                      foregroundColor: AppTheme.tertiaryColor,
+                      fixedSize: Size(30, 65),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      )
+                    ),
                   ),
                 ),
               ],
